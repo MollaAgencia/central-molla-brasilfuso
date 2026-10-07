@@ -15,7 +15,8 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE7ElEQVR42sWXQWyc1RHHfzPvvd312utdh5SS5GBwpYoQOAFSEYIoqKJcQBxYceDIhRsgVUUCTggQFyQEN5AQ9F6pJQeiVqJAmpAIQSsRW3AgwUjgOEDkdbyLvd/3ZjjsJsTsuoBwyBy+03zz/jPzn/+8JwwsAJkbSXvO7nvSnQOiepu7GaD8MjMRVTc7LMK/v9gx/zQfUJw/M7Tb7bCwsJB3X7P3j9Pru16SEB4En3V3AOGXm4AjKrMS4v7Gt1fe3GhdsXxu5etP2+12EIBdc/tuVfSwiIjlskAkbEPmI5XAPWuIyd3dsNuWTs4fCc3Z2VZF0iui4WrPuY9IZZsyH62ESHDzvqhG3H6nzfrfw47WnkdiTA+alcXw8EtrQsCtCCHNBQsdRbjbLBtI4FczCWbZEO6WPXM3uLv9FCZdMN8GPwARJY4bNR1GcR9EVKA0x4YRo4KKkP18oIFPNqf072NEFRwu/PdDczeL49jeLQeZRAHB6GWhWYs0gmBAp2/0+yVTSRERipzpZWGqmmjEwb+9DCvrJVU1alG3AqFx05w41KPw3K0NGrXEu8vCG5+u8ZcbGuzfDbNVpyBw4hy8trDBP091oCzZ0ajz8PVT7N+VmKsZivN5IRw77by6sMZnX/eYrMhYELL7mn0XFKdwmKkI8/dNESaMo6u/Qfob3LJzbYDOBdwgZ6g2eOx95+CpNf52V5O9Uz2wElQHIlcWoIGlPM1D73T5z2cr1NMoiE0ASodmRTh+zxSNlPGQiDGz2K3x1hlnpWdctzNxx86SWHZZ1QZLG4FrJ1ZxqrzXSXz4laEaOHCVs3diHazPss7wp390WOp0SVEH3BpaHNeYIJkgAaTk0Ok6jx4+x9LqBo6jojxw/QzP31Sn2e/RrEBfqjx1Qnn5w7NsZAN3WpM1XjjQ4t4rjN/GLvf/vs6zx3rMRMgXk4AxY+MEkMxXVuOx99ZY7nRpVZxWgkbI/PWjs/zrTIKkeFDeXK7x4vsrVKSglZyZKqx1uzxzbJWO1/Cy5PbdkalqIvvmHui4GXY3iMJ/zyqnO+tMVQKFDVokKrgZx7/sQRBQ5c1T5xArUVVKh8JgIimnVzf4pBeQKEzLOkkM981ascXCcRClZwlH+AFo3B0kgihuSnfDCLLZTxAKM870bKC/ISIyKk5btGDwze4YMrKaHFBkuF98GNi3UEa/SNXGCMF2KLv/DB+5FAB+0voRQb6vx2UAgI+t1a8G4Pzxl60FW9lYJczmw/W7Nb3cB35uzv9xw4ax8hZOcdyFollPxEllshrHjpc7VKMQ6gmyU4l57CQ40JioECdLmv2EyCgJI2CA+vCivp6dx/+nTFeUhZUuCduU4fmV/fYX65THa2SHhW9KKmGzEDkQcV7/uM/RL5WlXkE2QzZT0UauZA6sbhjmTjXAZAojqEVgvTB6pSPAZNIBgDFV6PYzfROiOI1qGL2SmeWjqvqH4UNEBdgxEZBhtuN44D7Q+snKgNPZt+bBdHUowc7FPDARwSwfU5yDqkHB888hofngnlj+CAmzjyOhZ9WgOAdDaNVPRMItonEO8z5CuMSC0JcQK2blOz3v/lk7i4srLvIE7q4hVHAvhsTcbjPci+EZ7iJPdBYXV7Tdboelk/NH3Ms73f2QxpRERC/BLlCNKbn7IffyzqWT80cuPE4v5/P8O1wBjpsdQsn4AAAAAElFTkSuQmCC">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -566,7 +567,7 @@
      SENHA DA CENTRAL (única para todos os acessos).
      Para trocar, edite somente a linha abaixo.
      ===================================================== */
-  var PASS = 'BRF001#2026#';
+  var PASS = 'BSF001#2026#';
 
   var CLIENTE = 'Brasilfuso';
   var DOCS = {
@@ -662,7 +663,10 @@
   window.addEventListener('scroll', spy, { passive: true }); spy();
 
   /* ---------- materiais ---------- */
-  var CHART = null;
+  var CHART = null, FAVICON = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTIuOCIgZmlsbD0iIzFBMjEyQiIvPjxwYXRoIGZpbGw9IiMzNEVFNDIiIGQ9Ik0xMi4zIDIxLjk5TDUwLjM4IDE0LjIyTDQ4LjY2IDUuNzZMMzMuODUgOC43OEwzMi4wMSAxMS43OEwyOC4xMSAxMi41OEwyNi4yIDEwLjM0TDEwLjU4IDEzLjUyWk0yMC4zNyAyNS4xOUwyMC4zNyAyMS4yNUw0MS40MiAxNi45NUw0My44MiAyMC4wOEw0OS43NiAyMC4wOEw0OS43NiAyNS4xOVpNMTYuNzEgMzYuNzNMMTYuNzEgMzJMMjIuMDMgMzJMMjIuMDMgMjYuODVMNDMuNTMgMjYuODVMNDYuMDMgMzJMNTMuNDIgMzJMNTMuNDIgMzYuNzNaTTE5LjA0IDQ4LjY5TDE5LjA0IDQzLjg3TDI0LjI3IDQzLjg3TDI0LjI3IDM4Ljg5TDQ2LjExIDM4Ljg5TDQ4LjI3IDQzLjg3TDUzLjQyIDQzLjg3TDUzLjQyIDQ4LjY5Wk0yNy41MSA1MS4zMUw0NC42MSA1MS4zMUwzOS4xMyA1OC4yNFoiLz48L3N2Zz4=';
+  function withIcon(html){
+    return html.replace(/<head[^>]*>/i, function(m){ return m + '<link rel="icon" type="image/svg+xml" href="' + FAVICON + '">'; });
+  }
   function docHtml(key, forPrint){
     var html = JSON.parse($('doc-' + key).textContent);
     if(html.indexOf('<!--@@CHARTJS@@-->') > -1){
@@ -731,13 +735,13 @@
     var w = null; try{ w = window.open('', '_blank'); }catch(e){}
     if(!w){ toast('O navegador bloqueou a nova janela. Abrindo a impressão aqui mesmo.'); printInViewer(key); return; }
     toast('Preparando o PDF…', 2600);
-    w.document.open(); w.document.write(docHtml(key, true)); w.document.close();
+    w.document.open(); w.document.write(withIcon(docHtml(key, true))); w.document.close();
     whenReady(w, function(){ try{ w.focus(); w.print(); }catch(e){} });
   }
   function openNew(key){
     var w = null; try{ w = window.open('', '_blank'); }catch(e){}
     if(!w){ toast('O navegador bloqueou a nova aba. Libere pop-ups para este site e tente de novo.', 4200); return; }
-    w.document.open(); w.document.write(docHtml(key, false)); w.document.close();
+    w.document.open(); w.document.write(withIcon(docHtml(key, false))); w.document.close();
   }
 
   [].forEach.call(document.querySelectorAll('.card[data-doc]'), function(c){
